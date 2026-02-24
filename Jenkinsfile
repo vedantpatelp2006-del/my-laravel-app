@@ -49,6 +49,8 @@ pipeline {
                 """
             }
         }
+
+    }
     post {
         always {
             junit 'storage/logs/*.xml'
